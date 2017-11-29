@@ -1,11 +1,14 @@
 from setuptools import setup
 from jjb_separator_param import __version__
 
+
+p_name = 'jenkins-job-builder-separator-parameter'
+
 setup(
     name='jjb-separator-param',
     version=__version__,
     description='Jenkins Job Builder Separator Param',
-    url='https://github.com/ochirkov/jenkins-job-builder-separator-parameter',
+    url='https://github.com/ochirkov/{0}'.format(p_name),
     author='Chyrkov Oleksandr',
     author_email='ironloriin20@gmail.com',
     license='Apache-2.0 license',
